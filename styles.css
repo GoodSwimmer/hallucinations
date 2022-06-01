@@ -1,0 +1,159 @@
+
+body {
+  background-color: black;
+  color: white;
+}
+
+h1 {
+  font-family: 'career_turning';
+  font-size: 1.8em;
+}
+
+h2 {
+  font-family: 'career_salle13';
+  font-size: 1.3rem;
+}
+
+.topHeading {
+  text-align: center;
+  text-transform: uppercase;
+  color: white;
+  position: sticky;
+  }
+
+.leadUnit {
+position: relative;
+
+}
+
+.leadImage {
+  position: absolute;
+  width: 100%;
+  margin-top: 2%;
+  padding-bottom: 10px;
+}
+
+.leadImage:after {
+  position: relative;
+}
+
+.leadText {
+  padding: 150px 10px 10px 10px;
+  margin: 5%;
+  overflow: hidden;
+  min-height: 400px;
+}
+
+.mainContent {
+padding: 0px;
+margin: 0px;
+}
+
+.card-body {
+  background-color: black;
+  padding-left: 0px;
+
+
+}
+
+.card {
+  background-color: black;
+  color: white;
+  border-radius: 0px;
+}
+
+.btn {
+  color: white;
+  padding-left: 0px;
+}
+
+.btn:hover {
+  color: white;
+
+}
+
+.card-header {
+  padding-left: 0px;
+}
+
+.white {
+  border-color: white;
+  border-width: 10px;
+}
+
+.sticky-top {
+  position: -webkit-sticky;
+   position: sticky;
+   top: 0;
+   z-index: 1020;
+}
+
+div.sticky {
+  position: -webkit-sticky;
+  position: sticky;
+  background-color: black;
+}
+
+.main {
+padding-top: 10px;
+}
+
+.mainImage {
+  padding-bottom: 10px;
+}
+
+.breaker {
+  min-height: 0px;
+}
+
+.text {
+  font-size: 2rem;
+  overflow: scroll;
+  height: 500px;
+}
+
+
+@font-face {
+    font-family: 'career_point';
+    src: url('career_point-webfont.woff2') format('woff2'),
+         url('career_point-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'career_salle13_cursive';
+    src: url('career_salle13_cursive-webfont.woff2') format('woff2'),
+         url('career_salle13_cursive-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'career_salle13';
+    src: url('career_salle13-webfont.woff2') format('woff2'),
+         url('career_salle13-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'career_turning';
+    src: url('career_turning-webfont.woff2') format('woff2'),
+         url('career_turning-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+
+@font-face {
+    font-family: 'careermedium';
+    src: url('career-webfont.woff2') format('woff2'),
+         url('career-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
