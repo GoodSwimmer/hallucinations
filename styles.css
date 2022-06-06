@@ -112,6 +112,28 @@ padding-top: 10px;
   height: 500px;
 }
 
+.carousel-indicators li {
+  color: white;
+  background-color: black;
+  outline-width: 1px;
+  width: 100px;
+  text-indent: 0px;
+  text-align: center;
+  height: auto;
+
+
+}
+
+.carousel-indicators li.active {
+background-color: white;
+color: black;
+
+}
+
+.spacer {
+  height: 1000px;
+  background-color: black;
+}
 
 @font-face {
     font-family: 'career_point';
