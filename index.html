@@ -6,25 +6,26 @@
     <link rel="" href="">
 
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-    <link rel="stylesheet" href="https://goodswimmer.github.io/hallucinations/styles.css">
+    <link rel="stylesheet" href="/styles.css">
+    <meta content="width=device-width, initial-scale=1" name="viewport" />
   </head>
 
 
   <body>
 <div class= "container">
-
-  <div class="static top topHeading">
+  <div class="sticky-top topHeading">
   <h1>Hallucinations of Remembrance and Imminence</h1>
+
 </div>
 
 <div style="margin-bottom:50px">
-  <img class="top w-100" src="Images/cristobalheader.png">
+<div class="top">
+  <img class="w-100 webSize" src="Images/cristobalheader.png">
+    <img class="w-100 mobileSize" src="Images/cristobalMobileHeader.png">
+      </div>
 </div>
-
-
-<div class="sticky sticky-top">
-    <div class="main">
-      <div class="row">
+    <div>
+      <div class="row sticky-top" id="menu">
       <div class="col-4">
         <button class="btn btn-link" data-toggle="collapse" data-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
             <h3>IMAGES</h3>
@@ -43,14 +44,22 @@
             </button>
             </div>
       </div>
-  <div id="accordion">
+
+  <div id="accordion" class="fixedContent">
       <div id="collapseOne" class="collapse show" aria-labelledby="headingOne" data-parent="#accordion">
         <div class="card-body">
           <div id="carouselImages" class="carousel slide" data-interval="false">
           <div class="carousel-inner">
-        <div class="carousel-item active">
+
+            <div class="carousel-item active">
+                <div style="padding:56.25% 0 0 0;position:relative;"><iframe src="https://player.vimeo.com/video/759632919?h=e69749721c&autoplay=1&title=0&byline=0&portrait=0" style="position:absolute;top:0;left:0;width:100%;height:100%;" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen></iframe></div><script src="https://player.vimeo.com/api/player.js"></script>
+</div>
+        <div class="carousel-item">
           <img class="d-block w-100" src="Images/DSC07907.png" alt="First slide">
         </div>
+
+
+
         <div class="carousel-item">
           <img class="d-block w-100" src="Images/DSC07921.png" alt="Second slide">
         </div>
@@ -62,9 +71,10 @@
       <br />
       <br />
       <ol class="carousel-indicators">
-        <li data-target="#carouselImages" data-slide-to="0" class="active">Entrance</li>
-        <li data-target="#carouselImages" data-slide-to="1">Bell</li>
-        <li data-target="#carouselImages" data-slide-to="2">Bell 2</li>
+        <li data-target="#carouselImages" data-slide-to="0" class="active">Installation Video</li>
+        <li data-target="#carouselImages" data-slide-to="1">Installation View 1</li>
+        <li data-target="#carouselImages" data-slide-to="2">Installation View 2</li>
+        <li data-target="#carouselImages" data-slide-to="3">Installation View 3</li>
       </ol>
 
       </div>
@@ -87,7 +97,7 @@
           </div>
           <div class="carousel-item">
 
-  <div style="padding:56.25% 0 0 0;position:relative;"><iframe src="https://player.vimeo.com/video/721258369?h=854f660754&title=0&byline=0&portrait=0" style="position:absolute;top:0;left:0;width:100%;height:100%;" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen></iframe></div><script src="https://player.vimeo.com/api/player.js"></script>
+<div style="padding:56.25% 0 0 0;position:relative;"><iframe src="https://player.vimeo.com/video/747476768?h=b80ab52bc5&title=0&byline=0&portrait=0" style="position:absolute;top:0;left:0;width:100%;height:100%;" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" allowfullscreen></iframe></div><script src="https://player.vimeo.com/api/player.js"></script>
 
           </div>
           <div class="carousel-item">
@@ -120,7 +130,7 @@
           <li data-target="#carouselVideos" data-slide-to="1">Red Culebra 2</li>
           <li data-target="#carouselVideos" data-slide-to="2">Deer Woman</li>
             <li data-target="#carouselVideos" data-slide-to="3">Goathead</li>
-            <li data-target="#carouselVideos" data-slide-to="4">Conversation</li>
+            <li data-target="#carouselVideos" data-slide-to="4">Radio Healer</li>
         </ol>
 
         </div>
@@ -136,14 +146,14 @@
           <div class="card-body">
             <div id="carouselTexts" class="carousel slide" data-interval="false">
             <div class="carousel-inner">
-          <div class="carousel-item active textStyle">
+          <div class="carousel-item active textStyle" id="textBlock">
             <h1>Echoes of Land and Soundings of Place</h1>
 <h2>by Josh Rios</h2>
 <br />
 
 <p>
 
-It feels appropriate to start with an acknowledgment. In the spirit of Cristóbal Martínez’s sonic and sculptural installation, <i>Hallucinations of Remembrance and Imminence</i>, this cannot be an acknowledgement in the service of facile resolution or the relieving of settler guilt. It cannot be a land acknowledgment as commonly understood within the discourse of the occupier’s institution. Rather, it must involve a poetics of place and emplacement—a rhythmic and atonal composition enlivened by performance, sustained across space and time, and dedicated to the human, greater-than-human, biologic, and non-biologic alike. On the one hand, I’m writing this from the traditional homelands and waterways of the Potawatomi, which have been and remain an active and complex social site since time immemorial. But I’m also writing this from all the homelands my ancestors arrived from, resided upon, and moved through, including the borderlands where I grew up in both rural and urban contexts, where my family has lived since before there was such a thing as a U.S.-Mexico divide. Southern Exposure, where Hallucinations of Remembrance and Imminence was exhibited, is also situated on Indigenous land, namely the homelands of the original peoples of the San Francisco Peninsula, the Ramaytush Ohlone. Acknowledgment of place must confront history, as well as all the ways that land and far-flung peoples are brought into the grain and patterns of our contemporary lives.
+It feels appropriate to start with an acknowledgment. In the spirit of Cristóbal Martínez’s sonic and sculptural installation, <i>Hallucinations of Remembrance and Imminence</i>, this cannot be an acknowledgement in the service of facile resolution or the relieving of settler guilt. It cannot be a land acknowledgment as commonly understood within the discourse of the occupier’s institution. Rather, it must involve a poetics of place and emplacement—a rhythmic and atonal composition enlivened by performance, sustained across space and time, and dedicated to the human, greater-than-human, biologic, and non-biologic alike. On the one hand, I’m writing this from the traditional homelands and waterways of the Potawatomi, which have been and remain an active and complex social site since time immemorial. But I’m also writing this from all the homelands my ancestors arrived from, resided upon, and moved through, including the borderlands where I grew up in both rural and urban contexts, where my family has lived since before there was such a thing as a U.S.-Mexico divide. Southern Exposure, where <i>Hallucinations of Remembrance and Imminence</i> was exhibited, is also situated on Indigenous land, namely the homelands of the original peoples of the San Francisco Peninsula, the Ramaytush Ohlone. Acknowledgment of place must confront history, as well as all the ways that land and far-flung peoples are brought into the grain and patterns of our contemporary lives.
 </p>
 <p>
 Questions remain. Across whose homelands and in relation to whose dispossession has the oil been transported that makes possible the utility-scale production of electricity required to power our daily existences and cultural experiences, including the computer servers that make this writing possible? Maybe in the end writing alone is incapable of sustaining the type of heterotemporal reflection on roots, terrain, movement, growth, and decay required of acknowledgment. To paraphrase Stuart Hall, whenever I ask someone where they are from, I expect a long story. What happens if we ask the land where it is from? While the land may appear to simply exist—to not be from anywhere—it nevertheless has a past. This past is not, however, synonymous with History in the Western tradition, as a genre of writing or disciplinary way of describing the rise and fall of so-called civilizations. But if the land has a story and not a History, how does it communicate and what kind of translation does it require? Laura Perez’s notion of the hallucination as a form of decolonial reoccupation of a mythic, albeit contested, homeland is relevant: “to reoccupy Aztlán, the oppressed hallucinate—and that practice has no borders.”<sup>1</sup> Site, emplacement, positionality, storytelling, embodiment, the fantastical, and the uncanny are central sonic and material themes in <i>Hallucinations of Remembrance and Imminence</i>.</p>
@@ -201,31 +211,27 @@ And while <i>Goathead</i> and <i>Shingled Brain, Heroin Spine, Irradiated Tongue
           </div>
           <div class="carousel-item textStyle">
             Southern Exposure presents:
-<h1>  Hallucinations of Remembrance and Imminence</h1>
+<h1>Hallucinations of Remembrance and Imminence</h1>
   <h2>February 2 - March 19, 2022
   Solo Exhibition by Cristóbal Martínez</h2>
-
-  <i>Hallucinations of Remembrance and Imminence</i> was a solo project commissioned by Southern Exposure in San Francisco, presented February 2–March 19, 2022. Cristóbal Martínez’s electro-acoustic sound environment evokes sonic impressions of the artist’s childhood growing up in the expanse and presence of his ancestral landscape – the high desert of North Central New Mexico.
+  <br />
 <p>
-
-  The generative computer algorithms that cause sound to move and change shape throughout the installation. Experimental sounds that reference extreme forces of nature engulf recordings of birds and insects native to the land where Martinez’s family has lived for thousands of years. Visitors were encouraged to strike the suspended sculptural bell in grief for the land and ecosystem in extreme drought and in acknowledgment of animal populations currently disappearing as their habitats are increasingly destroyed by human behavior.
+  The electro-acoustic sound environments of <i>Hallucinations of Remembrance and Imminence</i> evoke sonic impressions of the artist’s childhood growing up in the expanse and presence of his ancestral landscape – the high desert of North Central New Mexico. At the same time, generative computer algorithms cause sound to swirl around and change shape throughout the installation, like extreme forces of nature engulfing recordings of birds and insects native to the land where Martinez’s family has lived for thousands of years. Visitors were encouraged to strike the suspended sculptural bell in grief for the land and ecosystem in extreme drought and in acknowledgment of animal populations currently disappearing as their habitats are increasingly destroyed by human behavior.
 </p>
 
 <p>
   “Perhaps by listening, we can understand and prophesize on things that need not be self-fulfilling,” says Martinez.
 </p>
 
-<p>
-  Cristóbal Martínez is an artist in Postcommodity and Associate Professor and Chair of Art and Technology at the San Francisco Art Institute. He is Mestizo, of the Genizaro, Pueblo, Manito, and Chicano people of Northern New Mexico. Using ritual, Martínez aspires to make poetic an idea-driven, propositional and self-implicating art that imagines sites of contest, controversy, conflict, and consequence into places of public pedagogy, curiosity, and conversation.
+  <p>
+    Cristóbal Martínez is an artist in Postcommodity and Associate Professor and Chair of Art and Technology at the San Francisco Art Institute. He is Mestizo, of the Genizaro, Pueblo, Manito, and Chicano people of Northern New Mexico. Using ritual, Martínez aspires to make poetic an idea-driven, propositional and self-implicating art that imagines sites of contest, controversy, conflict, and consequence into places of public pedagogy, curiosity, and conversation.
+  </p>
 
-</p>
-<p>
 
-  Martínez in Postcommodity has exhibited work in prominent national and international museums, exhibitions, and festivals including the 18th Biennale of Sydney, Adelaide International, Contour the 5th Biennale of the Moving Image, Nuit Blanche, Scottsdale Museum of Contemporary Art, 2017 Whitney Biennial, Art in General, documenta14, the 57th Carnegie International, Art Institute of Chicago, San Francisco Art Institute, LAXART, Minneapolis Art Institute, Remai Modern Museum, and the historic land art installation Repellent Fence at the U.S./Mexico border Near Douglas, AZ and Agua Prieta, SON.
+   <p>
+    Martínez in Postcommodity has exhibited work in prominent national and international museums, exhibitions, and festivals including the 18th Biennale of Sydney, Adelaide International, Contour the 5th Biennale of the Moving Image, Nuit Blanche, Scottsdale Museum of Contemporary Art, 2017 Whitney Biennial, Art in General, documenta14, the 57th Carnegie International, Art Institute of Chicago, San Francisco Art Institute, LAXART, Minneapolis Art Institute, Remai Modern Museum, and the historic land art installation Repellent Fence at the U.S./Mexico border Near Douglas, AZ and Agua Prieta, SON.
+   </p>
 
-</p>
-
-<p>
   <br/>
 
   <h2>EVENTS</h2>
@@ -241,34 +247,6 @@ And while <i>Goathead</i> and <i>Shingled Brain, Heroin Spine, Irradiated Tongue
   Two live in-person performances by Red Culebra (Guillermo Galindo & Cristóbal Martinez) on February 25, 2022 at 7:00 PM
   </p>
 </p>
-
-<p>
-  <br />
-  <h2>ABOUT SOUTHERN EXPOSURE</h2>
-    <p>
-      Southern Exposure (SoEx) is an artist-centered non-profit organization committed to supporting visual artists. Through our extensive and innovative programming, SoEx strives to experiment, collaborate and further educate while providing an extraordinary resource center and forum for Bay Area and national artists and youth in our Mission District space and off-site, in the public realm.
-    </p>
-
-<p>
-  Southern Exposure respectfully acknowledges that we reside upon the ancestral, unceded, occupied lands of the Ramaytush Ohlone peoples. As an organization that has been based in the Mission district of San Francisco since 1974, we honor and recognize the Native people who have stewarded this land for thousands upon thousands of years and who continue to do so. We further acknowledge that we, as an organization, have benefited from the use and occupation of this stolen land. Given the ongoing, damaging injustices of colonization, Southern Exposure is committed to supporting our Bay Area community of diverse artists and Indigenous-led partnerships that extend Indigenous self-determination in San Francisco. We aspire to be good stewards of arts, culture, and generative conversations while always mindful of greater equity and justice.
-
-</p>
-
-<p>
-  This living statement represents an ongoing dialogue with the Association of Ramaytush Ohlone. Many thanks to the Association of Ramaytush Ohlone, Gregg Castro, and Jonathan Cordero.
-  Donations to the Association of Ramaytush Ohlone are strongly encouraged and can be made at ramaytush.org/donate.
-
-</p>
-
-  <p>
-<i>
-
-  This exhibition is generously supported by grants from the Creative Work Fund, California Humanities, and the National Endowment for the Humanities, as well as Southern Exposure’s members and donors.
-
-</i>
-  </p>
-</p>
-
           </div>
 
 
@@ -278,7 +256,7 @@ And while <i>Goathead</i> and <i>Shingled Brain, Heroin Spine, Irradiated Tongue
         <br />
         <br/>
 
-      </br/>
+      <br/>
         <ol class="carousel-indicators">
           <li data-target="#carouselTexts" data-slide-to="0" class="active">Josh Rios</li>
           <li data-target="#carouselTexts" data-slide-to="1">Show Info</li>
@@ -289,58 +267,49 @@ And while <i>Goathead</i> and <i>Shingled Brain, Heroin Spine, Irradiated Tongue
         </div>
       </div>
     </div>
+
+    <div class="about">
+      <br />
+      <br />
+      <br />
+      <br />
+      <br />
+      <hr class="white" />
+          <div class="row">
+    <div class="col-md-3">
+    <img src="Images/SOEXLogowhite.png" class="img-fluid" alt="">
+    </div>
+    </div>
+    <br />
+    <h3><p>Southern Exposure (SoEx) is an artist-centered non-profit organization committed to supporting visual artists. Through our extensive and innovative programming, SoEx strives to experiment, collaborate and further educate while providing an extraordinary resource center and forum for Bay Area and national artists and youth in our Mission District space and off-site, in the public realm.
+
+    </p>
+
+    <p>
+    An active presence in the Bay Area since 1974, SoEx is continually evolving in response to the needs of artists and the community while engaging the public in artists' work. Central to our mission is to remain the most accessible space for visual artists to produce and present new work, learn, and connect. SoEx provides visual artists with the tools and resources they need to experiment in an open and supportive environment. We also work to advocate to new, diverse audiences and build an ever-growing community of enthusiasts and supporters of the visual arts.
+  </p></h3>
+  <br />
+  <br />
+  <br />
+  <br />
+  <br />
+
+    <div style="height: 75px" class="mobileSize">
+
+
+    </div>
+
+
+    </div>
+
+
   </div>
 
   </div>
-
-
-
-
-
-<div class="spacer"></div>
-<div>
-  <hr class="white" />
-      <div class="row">
-<div class="col-md-3">
-<img src="Images/SOEXLogowhite.png" class="img-fluid" alt="">
-</div>
-</div>
-<br />
-<p>  Southern Exposure (SoEx) is an artist-centered non-profit organization committed to supporting visual artists. Through our extensive and innovative programming, SoEx strives to experiment, collaborate and further educate while providing an extraordinary resource center and forum for Bay Area and national artists and youth in our Mission District space and off-site, in the public realm.
-
-</p>
-
-<p>
-An active presence in the Bay Area since 1974, SoEx is continually evolving in response to the needs of artists and the community while engaging the public in artists' work. Central to our mission is to remain the most accessible space for visual artists to produce and present new work, learn, and connect. SoEx provides visual artists with the tools and resources they need to experiment in an open and supportive environment. We also work to advocate to new, diverse audiences and build an ever-growing community of enthusiasts and supporters of the visual arts.
-</p>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-<br/>
-
-
-</div>
-
-
-</div>
-</div>
-
-
-</div>
-
-  </div>
-
-
-
-
-
 </div>
     <script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/popper.js@1.14.7/dist/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
-    <script src="https://goodswimmer.github.io/hallucinations/script.js"></script>
+    <script src="/script.js"></script>
   </body>
 </html>
