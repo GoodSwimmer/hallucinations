@@ -1,7 +1,7 @@
-
 body {
   background-color: black;
   color: white;
+  display: flex;
 }
 
 h1 {
@@ -14,28 +14,40 @@ h2 {
   font-size: 1.3rem;
 }
 
+h3 {
+  font-size: 1.5em;
+}
+
+.row {
+  text-align: center;
+  padding-top: 0px;
+}
+
+.col-4 {
+  margin-top: 0px;
+  padding-top: 0px;
+}
+
 .topHeading {
   text-align: center;
   text-transform: uppercase;
   color: white;
-  position: sticky;
+  padding: 10px;
+  background-color: black;
+  width: 100%;
+  max-height: 63px;
   }
+
+  #menu {
+  background: black;
+  top: 60px;
+  z-index: 1000;
+  }
+
 
 .leadUnit {
 position: relative;
 
-}
-
-.leadImage {
-  position: absolute;
-  width: 100%;
-  margin-top: 2%;
-  object-fit: cover;
-
-}
-
-.leadImage:after {
-  position: relative;
 }
 
 .leadText {
@@ -48,8 +60,7 @@ position: relative;
 .card-body {
   background-color: black;
   padding-left: 0px;
-
-
+  padding-right: 0px;
 }
 
 .card {
@@ -77,19 +88,6 @@ position: relative;
   border-width: 6px;
 }
 
-.sticky-top {
-  position: -webkit-sticky;
-   position: sticky;
-   top: 0;
-   z-index: 1020;
-}
-
-div.sticky {
-  position: -webkit-sticky;
-  position: sticky;
-  background-color: black;
-}
-
 .breaker {
   min-height: 100px;
 }
@@ -105,20 +103,21 @@ div.sticky {
   font-size: 1em;
   margin: 3px;
   padding: 5px;
-  /* background-color: black; */
-  width: 200px;
+  width: 10em;
   text-indent: 0px;
   text-align: center;
   height: auto;
   align-content: center;
-
 
 }
 
 .carousel-indicators li.active {
 background-color: white;
 color: black;
+}
 
+.carousel-item {
+  margin-bottom: 15px;
 }
 
 .spacer {
@@ -142,14 +141,18 @@ background-color: #D3D3D3;
 
 /* Track */
 ::-webkit-scrollbar-track {
-  box-shadow: inset 0 0 5px grey;
-  border-radius: 10px;
+  box-shadow: inset 0 0 0px black;
+  border-radius: 0px;
+  background-color: #D3D3D3;
+  outline: solid 1px black;
+
 }
 
 /* Handle */
 ::-webkit-scrollbar-thumb {
   background: white;
   border-radius: 10px;
+  border: solid 1px black;
 }
 
 .quote {
@@ -210,4 +213,117 @@ background-color: #D3D3D3;
     font-weight: normal;
     font-style: normal;
 
+}
+
+div.card-body {
+padding: 0px;
+}
+
+.carousel-inner {
+  margin-bottom: 0px;
+}
+
+/* .newSticky {
+  position: sticky;
+  top: 63px;
+  align-self:flex-start;
+} */
+
+
+.topHang {
+  position:-webkit-sticky;
+  position: sticky;
+  top:400;
+  z-index: 1000;
+  align-self: flex-start;
+}
+
+.webSize {
+  display: block;
+}
+
+.mobileSize {
+  display: none;
+}
+
+
+/* media queries */
+@media only screen and (max-width: 600px) {
+h1 {
+  font-size: 1.4em;
+}
+  h3 {
+  font-size: 1em;
+  }
+
+  .img-fluid {
+    padding: 0px 80px 0px 80px;
+  }
+  .carousel-indicators li {
+    font-size: .7em;
+    padding: 3px;
+    margin: 0px;
+  }
+
+  .textStyle {
+    font-size: 1em;
+    padding: 10px;
+    height: 450px;
+  }
+
+  .carousel-item {
+    margin-bottom: 20px;
+  }
+
+  ol.carousel-indicators {
+    margin: 0px;
+display: grid;
+grid-template-columns: repeat(3, minmax(60px, 1fr));
+    padding: 3px;
+  }
+
+.carousel-inner {
+margin-bottom: -40px;
+}
+
+
+.card-body {
+padding: 0px;
+}
+
+.webSize {
+  display: none;
+}
+
+.mobileSize {
+  display: block;
+}
+
+.about {
+  font-size: .8em;
+}
+
+.topHeading {
+  padding: 7px;
+  width: 100%;
+  min-height: 50px;
+  font-size: .7em;
+  }
+
+  #menu {
+  top: 49px;
+  }
+}
+
+@media only screen and (max-width: 1024px) {
+  .topHeading {
+    padding: 7px;
+    width: 100%;
+    min-height: 90px;
+
+    }
+
+    #menu {
+    top: 89px;
+    }
 }
