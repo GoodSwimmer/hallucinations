@@ -88,6 +88,24 @@ position: relative;
   border-width: 6px;
 }
 
+.black {
+  border-color: black;
+  border-width: 3px;
+}
+
+a {
+  color: gray;
+}
+
+a:hover {
+  color: gray;
+  text-decoration: underline;
+}
+
+.credits {
+  font-size: .8em;
+}
+
 .breaker {
   min-height: 100px;
 }
